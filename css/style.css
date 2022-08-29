@@ -1,0 +1,37 @@
+header{
+    text-align: left;
+    font-family: "calibri";
+    background-color: rgb(114, 118, 116);
+    color: white;
+    padding: 200px;
+}
+body{
+    background-color: rgb(21, 22, 22);
+    color: white;
+    font-family: "calibri";
+}
+header .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.hi{
+    padding: 100px;
+}
+.navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(98, 102, 100);
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+.navbar ul :hover{
+    color: rgb(221, 170, 17);
+    background: var(--yellow);
+}
+.navbar ul :active{
+    color: rgb(119, 89, 8);
+}
